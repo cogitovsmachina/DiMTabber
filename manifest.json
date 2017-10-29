@@ -4,6 +4,11 @@
   "name": "Tab for a Dream",
   "description": "Raise money for dreamers with each new tab you open.",
   "version": "1.0",
+  "incognito": "split",
+
+  "chrome_url_overrides": {
+    "newtab": "tab.html"
+  },
 
   "browser_action": {
     "default_icon": "icon.png",
